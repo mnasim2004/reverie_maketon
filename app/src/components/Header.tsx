@@ -1,5 +1,6 @@
 function Header(){
     return (
+        <>
         <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
         <form className="d-flex" role="search">
@@ -8,6 +9,7 @@ function Header(){
         </form>
         </div>
         </nav>
+        </>
     );
 }
 
